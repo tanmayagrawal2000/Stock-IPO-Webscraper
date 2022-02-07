@@ -19,7 +19,7 @@ Install beautifulsoap python library and prettytable library
 To run tests, go to the file directory and type
 
 ```bash
-  python filename.py
+  python Webscrape.py
 ```
 
 ## Code Screenshot
