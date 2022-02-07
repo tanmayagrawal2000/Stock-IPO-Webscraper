@@ -1,5 +1,6 @@
 
-# Webscraping of Money Control
+# Webscraping of Money Control ![GitHub last commit](https://img.shields.io/github/last-commit/tanmayagrawal2000/Webscraper_Money_Control) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/beautifulsoup4?logo=Python) ![](https://img.shields.io/badge/-BeautifulSoap4-orange) ![](https://img.shields.io/badge/-PrettyTable-red)
+
 
 This project takes the real time values of top gainers and loser from [Money Control](https://www.moneycontrol.com/) and display in the form of two tables of table.
 
@@ -22,6 +23,9 @@ To run tests, go to the file directory and type
   python Webscrape.py
 ```
 
-## Code Screenshot
+## Output Screenshot
 
 <img src="https://user-images.githubusercontent.com/53507833/152864933-b90ac3b8-e257-49ce-8120-cd79342a56ce.JPG" width="800">
+
+
+
