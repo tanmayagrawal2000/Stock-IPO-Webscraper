@@ -6,7 +6,7 @@ soup= BeautifulSoup(html_text,'lxml')
 top_table=soup.find('div', class_='bsr_table hist_tbl_hm')
 comp_table=top_table.find('tbody')
 comp_rows=comp_table.find('tr')
-myTable = PrettyTable(["Company Name","High","Low","Last Price","Prev Close","Change","Gain %"])
+gainertable = PrettyTable(["Company Name","High","Low","Last Price","Prev Close","Change","Gain %"])
 print("___  __   __      __               ___  __   __  ");
 print(" |  /  \ |__)    / _`  /\  | |\ | |__  |__) /__` ");
 print(" |  \__/ |       \__> /~~\ | | \| |___ |  \ .__/ ");
@@ -26,9 +26,10 @@ for i in range(8):
     # print(prev_close.text)
     # print(change.text)
     # print(gain.text)    
-    myTable.add_row([name,high.text,low.text,last_price.text,prev_close.text,change.text,gain.text])
+    gainertable.add_row([name,high.text,low.text,last_price.text,prev_close.text,change.text,gain.text])
     comp_rows=comp_rows.next_sibling.next_element
-print(myTable)
+
+print(gainertable)
 html_text2=requests.get('https://www.moneycontrol.com/stocks/marketstats/nseloser/index.php').text
 soup= BeautifulSoup(html_text2,'lxml')
 top_table=soup.find('div', class_='bsr_table hist_tbl_hm')
