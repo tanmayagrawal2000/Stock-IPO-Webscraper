@@ -7,9 +7,9 @@ top_table=soup.find('div', class_='bsr_table hist_tbl_hm')
 comp_table=top_table.find('tbody')
 comp_rows=comp_table.find('tr')
 gainertable = PrettyTable(["Company Name","High","Low","Last Price","Prev Close","Change","Gain %"])
-print("___  __   __      __               ___  __   __  ");
-print(" |  /  \ |__)    / _`  /\  | |\ | |__  |__) /__` ");
-print(" |  \__/ |       \__> /~~\ | | \| |___ |  \ .__/ ");
+print("___  __   __      __               ___  __   __  ")
+print(" |  /  \ |__)    / _`  /\  | |\ | |__  |__) /__` ")
+print(" |  \__/ |       \__> /~~\ | | \| |___ |  \ .__/ ")
                                                  
 for i in range(8):
     name=comp_rows.td.span.h3.a.text
@@ -36,9 +36,9 @@ top_table=soup.find('div', class_='bsr_table hist_tbl_hm')
 comp_table=top_table.find('tbody')
 comp_rows=comp_table.find('tr')
 loserTable = PrettyTable(["Company Name","High","Low","Last Price","Prev Close","Change","Gain %"])
-print("___  __   __           __   __   ___  __  ");
-print(" |  /  \ |__)    |    /  \ /__` |__  |__) ");
-print(" |  \__/ |       |___ \__/ .__/ |___ |  \ ");
+print("___  __   __           __   __   ___  __  ")
+print(" |  /  \ |__)    |    /  \ /__` |__  |__) ")
+print(" |  \__/ |       |___ \__/ .__/ |___ |  \ ")
                                           
                                           
 for i in range(8):
