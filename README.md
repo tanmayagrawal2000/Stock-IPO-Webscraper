@@ -27,7 +27,7 @@ To run tests, go to the file directory and type
 ## Output Screenshot
 
 <img src="https://user-images.githubusercontent.com/53507833/152864933-b90ac3b8-e257-49ce-8120-cd79342a56ce.JPG" width="800">
-<img src="https://user-images.githubusercontent.com/53507833/172928857-3178967d-2941-440c-b2fe-2ad33a08c943.JPG" width="800">
+<img src="https://user-images.githubusercontent.com/53507833/172928857-3178967d-2941-440c-b2fe-2ad33a08c943.JPG" width="1900" height="300">
 
 
 
